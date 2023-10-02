@@ -139,3 +139,13 @@ h1 {
     padding: 20vh 0;
 
 }
+
+footer ul {
+    list-style: none;
+    color: white;
+    padding: 5vh;
+}
+
+footer li {
+    padding: 1vh 0;
+}
