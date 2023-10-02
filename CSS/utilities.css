@@ -21,6 +21,7 @@
 .flex-justify-center { justify-content: center; }
 .flex-justify-end { justify-content: flex-end; }
 .flex-align-center { align-items: center; }
+.flex-align-start { align-items: flex-start; }
 .flex-wrap {flex-wrap: wrap;}
 
 /*** LARGHEZZE ***/

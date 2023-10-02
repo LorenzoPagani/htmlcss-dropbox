@@ -3,6 +3,7 @@
 }
 
 header {
+    z-index: 10;
     display: flex;
     justify-content: space-between;
     height: 10vh;
@@ -12,6 +13,13 @@ header {
 }
 .logo {
     width: 30%;
+}
+
+.button {
+    display: block;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: orange;
 }
 
 .jumbo {
@@ -32,4 +40,42 @@ h1 {
   position: absolute;
   top: 10%;
   left: 0%;
+}
+
+
+.plans {
+    padding-top: 20vh;
+}
+
+.plans h2 {
+    margin-bottom: 10vh;
+}
+
+.plan-container {
+    width: 30%;
+    margin-bottom: 20vh;
+}
+.contentbox {
+    border: 1px solid lightgray;
+}
+.contentbox.head {
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+.contentbox.content {
+    padding: 2vw;
+    min-height: 80vh;
+}
+
+.sales-contacts {
+    height: 30vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+
 }
