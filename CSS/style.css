@@ -1,0 +1,12 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    width: 100%;
+    background-color: red;
+    position: fixed;
+}
