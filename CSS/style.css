@@ -10,3 +10,26 @@ header {
     background-color: red;
     position: fixed;
 }
+.logo {
+    width: 30%;
+}
+
+.jumbo {
+    padding-top: 20vh;
+    background-color: #B4D0E7;
+    min-height: 80vh;
+}
+
+h1 {
+    font-size: 4.5vw;
+    width: 75%;
+    margin: auto;
+    font-weight: 700;
+}
+
+.jumbopic {
+  width: 100%;
+  position: absolute;
+  top: 10%;
+  left: 0%;
+}

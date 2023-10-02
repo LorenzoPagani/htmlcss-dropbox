@@ -87,6 +87,7 @@
 .px-64 { padding: 0 64px; }
 
 /*** MARGIN ***/
+.m-auto {margin: auto;}
 .m-8 { margin: 8px; }
 .mt-8 { margin-top: 8px; }
 .mr-8 { margin-right: 8px; }
