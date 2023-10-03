@@ -6,6 +6,10 @@
 
 .bg-sugar {background-color: #B4D0E7;}
 
+p {
+    font-size: 2.5vh;
+}
+
 header {
     z-index: 10;
     display: flex;
@@ -39,7 +43,9 @@ header a {
     display: block;
     text-decoration: none;
     padding: 10px 15px;
-    background-color: orange;
+    background-color: #0061FF;
+    color: white;
+    border: none;
 }
 
 .jumbo {
@@ -58,7 +64,7 @@ h1 {
 .jumbopic {
   width: 100%;
   position: absolute;
-  top: 10%;
+  top: 5%;
   left: 0%;
 }
 
@@ -73,7 +79,6 @@ h1 {
 
 .plan-container {
     width: 30%;
-    margin-bottom: 20vh;
 }
 .contentbox {
     border: 1px solid lightgray;
@@ -90,8 +95,8 @@ h1 {
 }
 
 .sales-contacts {
-    height: 30vh;
-    padding: 10px;
+    height: 35vh;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -109,12 +114,12 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     width: calc(100% / 3);
-    background-color: aqua;
 }
 .comp-container.center {
     flex-direction: column;
     justify-content: space-around;
-    padding-left: 3vw;
+    overflow-y: scroll;
+    padding: 0 3vw;
 }
 
 .company-box {
