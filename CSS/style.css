@@ -61,6 +61,11 @@ header a {
     border: none;
 }
 
+.button.white-outline {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
 .fa-check {
     color: #0061FF; 
 }
@@ -68,8 +73,10 @@ header a {
 .jumbo {
     padding-top: 20vh;
     background-color: #B4D0E7;
+    height: 100vh;
     
 }
+
 
 h1 {
     font-size: 4.5vw;
@@ -78,11 +85,18 @@ h1 {
     font-weight: 700;
 }
 
-.jumbopic {
-    width: 90%;
+.arrow {
     position: absolute;
-    top: 0%;
-    left: 0%;
+        left: 12%;
+        bottom: 0%;
+       
+}
+
+.jumbopic {
+    width: 50%;
+    position: absolute;
+    bottom: -10%;
+    right: 5%;
 }
 
 
@@ -126,8 +140,6 @@ h1 {
     height: 35vh;
     padding: 20px;
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
 
@@ -150,7 +162,8 @@ h1 {
     flex-wrap: nowrap;
     justify-content: space-between;
     overflow-y: scroll;
-    padding: 0 3vw;
+    padding: 5vw;
+    background-color: #F5F5F5;
 }
 
 .company-box {
@@ -206,7 +219,7 @@ h1 {
     justify-content: space-between;
     align-items: center;
     padding: 20vh 0;
-
+    color: #620A2B;
 }
 
 footer ul {
