@@ -5,6 +5,9 @@
 .mt-20vh {
     margin-top: 20vh;
 }
+.mt-40vh {
+    margin-top: 40vh;
+}
 
 .bg-sugar {
     background-color: #B4D0E7;
@@ -25,7 +28,8 @@ header {
 }
 
 header a {
-    font-size: 1.5vh;
+    font-size: .8em;
+    padding: 0 5px;
 }
 
 .navbutton {
@@ -57,10 +61,14 @@ header a {
     border: none;
 }
 
+.fa-check {
+    color: #0061FF; 
+}
+
 .jumbo {
     padding-top: 20vh;
     background-color: #B4D0E7;
-    min-height: 80vh;
+    
 }
 
 h1 {
@@ -71,15 +79,15 @@ h1 {
 }
 
 .jumbopic {
-    width: 120%;
+    width: 90%;
     position: absolute;
-    top: 3%;
+    top: 0%;
     left: 0%;
 }
 
 
 .plans {
-    padding-top: 20vh;
+    padding-top: 40vh;
 }
 
 .plans h2 {
@@ -90,6 +98,11 @@ h1 {
     width: 30%;
 }
 
+.planlist {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 16px 0;
+}
 .contentbox {
     border: 1px solid lightgray;
 }
@@ -102,7 +115,11 @@ h1 {
 
 .contentbox.content {
     padding: 2vw;
-    min-height: 80vh;
+    min-height: 120vh;
+}
+
+.contentbox.content p {
+    font-size: 0.8em;
 }
 
 .sales-contacts {
