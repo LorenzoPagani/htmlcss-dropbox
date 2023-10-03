@@ -2,9 +2,13 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-.mt-20vh {margin-top: 20vh;}
+.mt-20vh {
+    margin-top: 20vh;
+}
 
-.bg-sugar {background-color: #B4D0E7;}
+.bg-sugar {
+    background-color: #B4D0E7;
+}
 
 p {
     font-size: 2.5vh;
@@ -20,6 +24,10 @@ header {
     position: fixed;
 }
 
+header a {
+    font-size: 1.5vh;
+}
+
 .navbutton {
     display: flex;
     align-items: center;
@@ -29,8 +37,9 @@ header {
 .navbutton:hover {
     border-bottom: 1px solid black;
 }
+
 header a {
-   
+
     text-decoration: none;
     color: black;
 }
@@ -62,10 +71,10 @@ h1 {
 }
 
 .jumbopic {
-  width: 100%;
-  position: absolute;
-  top: 5%;
-  left: 0%;
+    width: 120%;
+    position: absolute;
+    top: 3%;
+    left: 0%;
 }
 
 
@@ -80,9 +89,11 @@ h1 {
 .plan-container {
     width: 30%;
 }
+
 .contentbox {
     border: 1px solid lightgray;
 }
+
 .contentbox.head {
     display: flex;
     justify-content: center;
@@ -107,17 +118,20 @@ h1 {
 
 .comp-section {
     justify-content: flex-start;
-    
+
 }
 
 .comp-container {
     display: flex;
     flex-wrap: wrap;
     width: calc(100% / 3);
+    aspect-ratio: 1 / 1;
 }
+
 .comp-container.center {
     flex-direction: column;
-    justify-content: space-around;
+    flex-wrap: nowrap;
+    justify-content: space-between;
     overflow-y: scroll;
     padding: 0 3vw;
 }
@@ -133,7 +147,40 @@ h1 {
 
 .company-box img {
     width: 70%;
+    filter: invert(1);
 }
+
+.design {
+    background-color: #A2D39B;
+    box-shadow: 0px 0px 0px 8px inset #D1E9CD;
+}
+
+.ASU {
+    background-color: #61082B;
+}
+
+.UF {
+    background-color: #0093CE;
+}
+.topps {
+    background-color: #FF1C1C;
+}
+
+.WBR {
+    background-color: #D5001F;
+}
+
+.hearst {
+    background-color: #B4D0E7;
+}
+.lonely {
+    background-color: #0D2481;
+}
+.c-channel {
+    background-color: #FFD830;
+}
+
+
 
 .business-banner {
     width: 66%;
