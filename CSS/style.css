@@ -5,6 +5,7 @@
 .mt-20vh {
     margin-top: 20vh;
 }
+
 .mt-40vh {
     margin-top: 40vh;
 }
@@ -66,15 +67,16 @@ header a {
     background-color: white;
     border: 1px solid black;
 }
+
 .fa-check {
-    color: #0061FF; 
+    color: #0061FF;
 }
 
 .jumbo {
     padding-top: 20vh;
     background-color: #B4D0E7;
     height: 100vh;
-    
+
 }
 
 
@@ -87,9 +89,9 @@ h1 {
 
 .arrow {
     position: absolute;
-        left: 12%;
-        bottom: 0%;
-       
+    left: 12%;
+    bottom: 0%;
+
 }
 
 .jumbopic {
@@ -117,6 +119,7 @@ h1 {
     flex-wrap: nowrap;
     margin: 16px 0;
 }
+
 .contentbox {
     border: 1px solid lightgray;
 }
@@ -162,7 +165,7 @@ h1 {
     flex-wrap: nowrap;
     justify-content: space-between;
     overflow-y: scroll;
-    padding: 5vw;
+    padding: 7vw;
     background-color: #F5F5F5;
 }
 
@@ -192,6 +195,7 @@ h1 {
 .UF {
     background-color: #0093CE;
 }
+
 .topps {
     background-color: #FF1C1C;
 }
@@ -203,9 +207,11 @@ h1 {
 .hearst {
     background-color: #B4D0E7;
 }
+
 .lonely {
     background-color: #0D2481;
 }
+
 .c-channel {
     background-color: #FFD830;
 }
@@ -222,12 +228,28 @@ h1 {
     color: #620A2B;
 }
 
+.FAQ {
+    border-top: 1px solid black;
+    padding: 5vh 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.FAQ.last {
+    border-bottom: 1px solid black;
+}
+
 footer ul {
     list-style: none;
     color: white;
-    padding: 5vh;
+    padding: 5vh 0;
+}
+
+footer li:first-child {
+    margin-top: 5vh;
 }
 
 footer li {
     padding: 1vh 0;
+    font-size: 0.7em;
 }
