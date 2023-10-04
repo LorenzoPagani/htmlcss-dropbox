@@ -50,7 +50,9 @@ header a {
 }
 
 .logo {
-    width: 30%;
+    width: 80%;
+    object-fit: contain;
+    object-position: center;
 }
 
 .button {
@@ -250,8 +252,6 @@ h1 {
 .FAQ:hover .fa-angle-down {
     display: none;
 }
-
-.FAQ
 
 footer ul {
     list-style: none;
