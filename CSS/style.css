@@ -1,13 +1,21 @@
 * {
     font-family: 'Open Sans', sans-serif;
+    font-size: 2.5vh;
 }
 
-.mt-20vh {
-    margin-top: 20vh;
+h1 {
+    font-size: 4.5vw;
+    width: 75%;
+    margin: auto;
+    font-weight: 700;
 }
 
-.mt-40vh {
-    margin-top: 40vh;
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.17em;
 }
 
 .bg-sugar {
@@ -15,7 +23,26 @@
 }
 
 p {
-    font-size: 2.5vh;
+    font-size: .9em;
+}
+
+.button {
+    display: block;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #0061FF;
+    color: white;
+    border: none;
+}
+
+.button:hover {
+    filter: brightness(120%);
+}
+
+.button.white-outline {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
 }
 
 header {
@@ -55,24 +82,7 @@ header a {
     object-position: center;
 }
 
-.button {
-    display: block;
-    text-decoration: none;
-    padding: 10px 15px;
-    background-color: #0061FF;
-    color: white;
-    border: none;
-}
 
-.button:hover {
-    filter: brightness(120%);
-}
-
-.button.white-outline {
-    color: black;
-    background-color: white;
-    border: 1px solid black;
-}
 
 .fa-check {
     color: #0061FF;
@@ -86,18 +96,10 @@ header a {
 }
 
 
-h1 {
-    font-size: 4.5vw;
-    width: 75%;
-    margin: auto;
-    font-weight: 700;
-}
-
 .arrow {
     position: absolute;
     left: 12%;
     bottom: 0%;
-
 }
 
 .jumbopic {
@@ -163,12 +165,10 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-
 }
 
 .comp-section {
     justify-content: flex-start;
-
 }
 
 .comp-container {
@@ -273,6 +273,7 @@ footer ul {
     list-style: none;
     color: white;
     padding: 5vh 0;
+    cursor: pointer;
 }
 
 footer li:first-child {

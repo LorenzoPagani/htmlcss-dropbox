@@ -90,6 +90,8 @@
 
 /*** MARGIN ***/
 .m-auto {margin: auto;}
+.mt-20vh {margin-top: 20vh;}
+.mt-40vh {margin-top: 40vh;}
 .m-8 { margin: 8px; }
 .mt-8 { margin-top: 8px; }
 .mr-8 { margin-right: 8px; }
