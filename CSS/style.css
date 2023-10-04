@@ -64,6 +64,10 @@ header a {
     border: none;
 }
 
+.button:hover {
+    filter: brightness(120%);
+}
+
 .button.white-outline {
     color: black;
     background-color: white;
@@ -114,6 +118,8 @@ h1 {
 
 .plan-container {
     width: 30%;
+    margin-top: 10vh;
+    border: 1px solid lightgray;
 }
 
 .planlist {
@@ -129,12 +135,22 @@ h1 {
 .contentbox.head {
     display: flex;
     justify-content: center;
+    border: none;
+    border-bottom: 1px solid lightgray;
+}
+
+.contentbox.team {
+    display: flex;
+    justify-content: center;
     margin-top: 10vh;
 }
 
 .contentbox.content {
     padding: 2vw;
-    min-height: 120vh;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .contentbox.content p {

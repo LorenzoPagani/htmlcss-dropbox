@@ -22,6 +22,7 @@
 .flex-justify-end { justify-content: flex-end; }
 .flex-align-center { align-items: center; }
 .flex-align-start { align-items: flex-start; }
+.flex-align-stretch { align-items: stretch; }
 .flex-wrap {flex-wrap: wrap;}
 
 /*** LARGHEZZE ***/
